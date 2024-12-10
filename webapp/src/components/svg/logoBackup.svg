@@ -1,0 +1,24 @@
+<svg width="635" height="635" viewBox="0 0 635 635" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient class="gradient_1" id="gradient_1" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop class="stop_1" offset="0%"  />
+        <stop class="stop_2" offset ="25%"/>
+        <stop class="stop_3" offset ="75%"/>
+        <stop class="stop_4" offset ="100%"/>
+    </linearGradient>
+    <linearGradient class="gradient_2" id="gradient_2" x1="100%" x2="0%" y1="0%" y2="0%">
+      <stop class="stop_1" offset="0%"  />
+        <stop class="stop_2" offset ="25%"/>
+        <stop class="stop_3" offset ="75%"/>
+        <stop class="stop_4" offset ="100%"/>
+    </linearGradient>
+</defs>
+<g>
+<path class="path_1" stroke="url(#gradient_1)" d="M191 101H340.5C362.591 101 380.5 118.909 380.5 141V281.5" />
+<path class="path_2" d="M380.5 279V428.5C380.5 450.591 362.591 468.5 340.5 468.5H200"  stroke="url(#gradient_1)" />
+<path class="path_3" d="M10.5 290L10.5 140.5C10.5 118.409 28.4086 100.5 50.5 100.5H191" stroke="url(#gradient_2)" />
+<path class="path_4" d="M200.5 468.5H51C28.9086 468.5 11 450.591 11 428.5L11 288"  stroke="url(#gradient_2)" />
+</g>
+<path class="path_5" d="M231 58H380.5C402.591 58 420.5 75.9086 420.5 98V238.5" stroke="url(#gradient_1)" />
+<path class="path_6" d="M273 10H422.5C444.591 10 462.5 27.9086 462.5 50V190.5"  stroke="url(#gradient_1)"/>
+</svg>

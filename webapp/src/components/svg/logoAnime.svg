@@ -1,0 +1,54 @@
+<svg width="95%" height="95%" viewBox="0 0 365 395" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient class="gradient_1" id="gradient_1" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop class="stop_1" offset="0%"  />
+        <stop class="stop_2" offset ="25%"/>
+        <stop class="stop_3" offset ="75%"/>
+        <stop class="stop_4" offset ="100%"/>
+    </linearGradient>
+    <linearGradient class="gradient_2" id="gradient_2" x1="0%" x2="100%" y1="0%" y2="0%">
+        <stop class="stop_1" offset="100%"  />
+        <stop class="stop_2" offset ="75%"/>
+        <stop class="stop_3" offset ="25%"/>
+        <stop class="stop_4" offset ="0%"/>
+    </linearGradient>
+     <linearGradient class="gradient_3" id="gradient_3" x1="0%" x2="0%" y1="0%" y2="100%">
+       <stop class="stop_1" offset="0%"  />
+        <stop class="stop_2" offset ="25%"/>
+        <stop class="stop_3" offset ="75%"/>
+        <stop class="stop_4" offset ="100%"/>
+    </linearGradient>
+     <linearGradient class="gradient_4" id="gradient_4" x1="100%" x2="0%" y1="0%" y2="0%">
+         <stop class="stop_1" offset="0%"  />
+        <stop class="stop_2" offset ="25%"/>
+        <stop class="stop_3" offset ="75%"/>
+        <stop class="stop_4" offset ="100%"/>
+    </linearGradient>
+</defs>
+<path class="path_1" stroke="url(#gradient_1)"  d="M154.979 57.3965H273.4C290.899 57.3965 305.085 71.5822 305.085 89.0813V200.374"/>
+<path class="path_2" stroke="url(#gradient_1)"  d="M305.084 198.393V316.814C305.084 334.313 290.898 348.499 273.399 348.499H162.106"/>
+<path class="path_3" stroke="url(#gradient_3)"  d="M12 207.107L12 88.6856C12 71.1866 26.1858 57.0008 43.6848 57.0008H154.978"/>
+<path class="path_4" stroke="url(#gradient_4)"  d="M162.502 348.5H44.0801C26.5811 348.5 12.3953 334.314 12.3953 316.815L12.3953 205.522"/>
+<path class="path_5" stroke="url(#gradient_1)"  d="M70 15H309C331.091 15 349 32.9086 349 55V298"  stroke-linecap="round"/>
+<g filter="url(#filter0_d_0_1)">
+<path d="M196.513 292H130.06V158H70V120H256.405V158H196.513V292Z" fill="#FFFAFA"/>
+<path d="M192.964 158V288.451H133.609V158V154.451H130.06H73.5493V123.549H252.856V154.451H196.513H192.964V158Z" stroke="url(#gradient_1)"  stroke-width="7.09855"/>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="53.0389" y="111.519" width="220.327" height="205.922" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8.48056"/>
+<feGaussianBlur stdDeviation="8.48056"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_0_1" x1="163.202" y1="120" x2="163.202" y2="292" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4A74E6"/>
+<stop offset="0.535" stop-color="#8E54E9"/>
+<stop offset="1" stop-color="#7062E8"/>
+</linearGradient>
+</defs>
+</svg>

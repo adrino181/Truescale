@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "DM Sans","Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('DM Sans'), local('DM Sans'), 
+   url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;400;600;700) 
+
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(262.93deg, #6073D8 0.04%, #5B4FE9 100.04%); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#__next{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+
+/* for autofill correctness */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  box-shadow: 0 0 0 100px #41576B inset !important;
+}
+
+::selection{
+  color: white;
+  background-color: #6073D8;
+}
+
+.article img {
+  max-width: 100%;
+}
+
+.article a, .article  p  a  {
+  color: #6073D8 !important;  
+}

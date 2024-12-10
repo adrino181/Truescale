@@ -1,0 +1,25 @@
+
+FROM node:20-slim 
+
+# ENV NODE_OPTIONS=--max-old-space-size=4096
+RUN mkdir -p /usr/src/app
+
+
+WORKDIR /usr/src/app
+
+ENV NEXT_TELEMETRY_DISABLED 1
+COPY package.json /usr/src/app
+# COPY yarn.lock ./
+
+# RUN yarn cache clean 
+# RUN yarn install --frozen-lockfile
+
+RUN yarn install
+
+COPY . /usr/src/app
+
+
+EXPOSE 3000
+# CMD ["yarn","dev"]
+CMD ["yarn","dev"]
+

@@ -1,0 +1,2 @@
+export const TWO_GRID_FORMAT = 'TWO_GRID_FORMAT';
+export const THREE_GRID_FORMAT = 'THREE_GRID_FORMAT'

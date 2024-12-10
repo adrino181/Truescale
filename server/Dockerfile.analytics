@@ -1,0 +1,15 @@
+FROM node:20-slim
+
+WORKDIR /app
+COPY package*.json ./
+
+# USER 502
+RUN npm cache clean --force
+RUN npm install
+
+COPY . ./
+
+EXPOSE 3008
+
+CMD ["npm","run","start-analytics"]
+# CMD ["sh", "start.sh"]

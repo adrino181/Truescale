@@ -1,0 +1,11 @@
+node_modules
+.git
+Dockerfile.dev
+.dockerignore
+Dockerfile.prod
+.gitignore
+.env
+.env.prod
+Dockerfile.analytics
+Dockerfile
+README.md

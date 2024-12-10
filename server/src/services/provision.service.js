@@ -22,7 +22,7 @@ class AwsProvisionService{
     this.apigateway = new AWS.APIGateway();
     this.s3 = new AWS.S3();
     this.lambda = new AWS.Lambda();
-    this.HOSTED_ZONE_ID = 'Z044998417WGGPMTQKV6D';
+    this.HOSTED_ZONE_ID = '{AWS_HOSTED_ZONE_ID}';
     this.acm = new AWS.ACM();
     this.route53 = new AWS.Route53();
 }    

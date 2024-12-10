@@ -1,0 +1,26 @@
+.article > h1 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0 0.5rem 0;
+    font-weight: bold;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article img {
+    max-width: 100%;
+    margin: 2rem 0 2rem 0;
+}
+
+.article p {
+    max-width: 100%;
+    margin: 1rem 0 1rem 0;
+    font-size: 1rem;
+}
+  
+  .article a, .article  p  a  {
+    color: #6073D8 !important;  
+  }
